@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Anonymous Pro', sans-serif;
+}
+
+:root {
+    --main-color: #2779a7;
+    --second-bg-color: #FF9398;
+    --text-color: #ffffff;
+    --header-color: #ECD06F;
+    --bg-color: #00dde8;
+    --dark-color: #000000;
+}
+
+html {
+    font-size: .7rem;
+    overflow-x: hidden;
+}
+
+body {
+    background: var(--main-color);
+    color: var(--text-color);
+    font-weight: 400;
+}
+
+section {
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    background: var(--main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+.navbar a {
+    font-size: 2rem;
+    color: var(--text-color);
+    margin-left: 4rem;
+    transition: .3s;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+
+.home-content h1 {
+    font-size: 7rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.home-content h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.home-img img {
+    margin-top: 1rem;
+    width: 30vw;
+}
