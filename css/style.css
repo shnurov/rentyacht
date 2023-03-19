@@ -47,9 +47,11 @@ section {
 }
 
 .navbar {
+    margin: 0 10%;
     display: flex;
     align-self: center;
     justify-content: space-around;
+
 }
 
 .navbar a {
@@ -84,6 +86,10 @@ section {
     width: 30vw;
 }
 
+.heading-sec {
+    margin-top: 5.5rem;
+}
+
 /* --- yachts --- */
 
 .yachts {
@@ -93,7 +99,7 @@ section {
 .yachts h2 {
     font-size: 4rem;
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 .yachts-container {
@@ -244,6 +250,9 @@ section {
     }
     #numbericon {
         display: inline-flex;
+    }
+    .navbar {
+        margin: 0;
     }
 }
 
