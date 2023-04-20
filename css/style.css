@@ -73,7 +73,7 @@ section {
     font-weight: 600;
     text-align: center;
     line-height: 7rem;
- 
+
 }
 
 .home-content h2 {
@@ -139,6 +139,71 @@ section {
 .yachts-img img {
     width: 40vw;
     border-radius: 2rem;
+}
+
+img.slider__img{
+    width: 40vw;
+}
+
+.slider {
+    width: 40vw;
+    margin: 20px auto;
+    overflow: hidden;
+    position: relative;
+    border-radius: 2rem;
+}
+
+.slider__btn_prev {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 10%;
+    position: absolute;
+    left: 0;
+    z-index: 2;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.slider__btn_next {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 10%;
+    position: absolute;
+    right: 0;
+    z-index: 2;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.slider__btn_prev:hover {
+    opacity: 1;
+}
+
+.slider__btn_next:hover {
+    opacity: 1;
+}
+
+.slider__line_1 {
+    width: 160vw;
+    /* height: 256px; */
+    display: flex;
+    background: orange;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}
+.slider__line_2 {
+    width: 160vw;
+    /* height: 256px; */
+    display: flex;
+    background: orange;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
 }
 
 .yachts-price {
@@ -225,7 +290,7 @@ p {
     .home {
         flex-direction: column;
     }
-    
+
     .home-content h3 {
         font-size: 2.8rem;
     }
@@ -251,8 +316,16 @@ p {
     }
     .yachts-content h3 {
         font-size: 3rem;
+        padding-bottom: 1rem;
     }
     .yachts-img img {
+        width: 80vw;
+    }
+    img.slider__img{
+        width: 80vw;
+    }
+
+    .slider {
         width: 80vw;
     }
 
