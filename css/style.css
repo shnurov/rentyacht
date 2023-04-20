@@ -187,20 +187,11 @@ img.slider__img{
     opacity: 1;
 }
 
-.slider__line_1 {
-    width: 160vw;
-    /* height: 256px; */
-    display: flex;
-    background: orange;
-    position: relative;
-    left: 0;
-    transition: all ease 1s;
-}
+.slider__line_1,
 .slider__line_2 {
     width: 160vw;
     /* height: 256px; */
     display: flex;
-    background: orange;
     position: relative;
     left: 0;
     transition: all ease 1s;
@@ -273,6 +264,67 @@ p {
 #numbericon {
     display: none;
 }
+
+/*  ---  form  ---  */
+
+.form {
+    background: var(--bg-color) ;
+    min-height: auto;
+}
+
+form {
+    margin-top: 3rem;
+    padding: 3rem;
+    border-radius: 2rem;
+    background: var(--text-color);
+    color: var(--dark-color);
+    margin-bottom: 2rem;
+    font-size: 2.1rem;
+    text-align: center;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2rem;
+}
+
+#phone {
+    border: 1px solid var(--dark-color);
+    border-radius: 7px;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.btn {
+    background-color: var(--header-color);
+    border-radius: 7px;
+    font-size: 18px;
+    padding: 7px 21px;
+    color: var(--dark-color)
+}
+
+input {
+    max-width: 150px;
+}
+
+input::-webkit-input-placeholder {
+    text-align: center;
+    }
+
+    input:-moz-placeholder { /* Firefox 18- */
+    text-align: center;
+    }
+
+    input::-moz-placeholder { /* Firefox 19+ */
+    text-align: center;
+    }
+
+    input:-ms-input-placeholder {
+    text-align: center;
+    }
 
 
 /* --- media --- */
@@ -360,6 +412,10 @@ p {
     }
     .navbar {
         margin: 0;
+    }
+    fieldset {
+        flex-direction: column;
+        row-gap: 2.2rem;
     }
 }
 
