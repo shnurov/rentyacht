@@ -58,6 +58,10 @@ section {
     color: var(--dark-color);
 }
 
+.bxs-phone-call {
+    padding-top: 4px;
+}
+
 .home {
     display: flex;
     justify-content: center;
@@ -116,7 +120,6 @@ section {
 
 .yachts-content {
     color: var(--dark-color);
-    padding-left: 1rem;
     flex-grow: 1;
 }
 
@@ -129,6 +132,7 @@ section {
 .yachts-content li {
     font-size: 2.3rem;
     line-height: 3.2rem;
+    padding-left: 4rem;
 }
 
 .yachts-content ul{
@@ -416,6 +420,9 @@ input::-webkit-input-placeholder {
     fieldset {
         flex-direction: column;
         row-gap: 2.2rem;
+    }
+    .yachts-content li {
+        padding-left: 0;
     }
 }
 
