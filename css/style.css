@@ -121,6 +121,7 @@ section {
 .yachts-content {
     color: var(--dark-color);
     flex-grow: 1;
+    width: 40vw;
 }
 
 .yachts-content h3 {
@@ -133,10 +134,11 @@ section {
     font-size: 2.3rem;
     line-height: 3.2rem;
     padding-left: 4rem;
+    text-align: center;
 }
 
 .yachts-content ul{
- padding-bottom: 1.5rem;
+    padding: 2rem 0;
  list-style-type: none;
 }
 
@@ -151,7 +153,7 @@ img.slider__img{
 
 .slider {
     width: 40vw;
-    margin: 20px auto;
+    margin: 0 auto;
     overflow: hidden;
     position: relative;
     border-radius: 2rem;
@@ -238,14 +240,16 @@ img.slider__img{
 }
 
 .trip-content h3 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: 700;
     text-align: center;
 }
 
 p {
-    font-size: 2rem;
+    padding-top: 2rem;
+    font-size: 2.3rem;
     padding-left: 2rem;
+    text-align: center;
 }
 
 .trip-content {
@@ -372,7 +376,6 @@ input::-webkit-input-placeholder {
     }
     .yachts-content h3 {
         font-size: 3rem;
-        padding-bottom: 1rem;
     }
     .yachts-img img {
         width: 80vw;
@@ -423,6 +426,9 @@ input::-webkit-input-placeholder {
     }
     .yachts-content li {
         padding-left: 0;
+    }
+    .yachts-content {
+        width: 80vw;
     }
 }
 
